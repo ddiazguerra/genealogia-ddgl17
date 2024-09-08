@@ -1,0 +1,135 @@
+<!--**MODIFICADO v16**-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Página principal</title>
+<link href="../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Página principal </h1>
+			<!-- <img class="header_image" src="../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="EA3.html">Arbol Genealogico</a> / <a href="EA1.html">Página principal</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../images/4.png" alt="Package"/> <a href="./EA2/EA3570.html">Arbol : Garcia Díaz-Guerra</a></li>
+<li><img src="../images/4.png" alt="Package"/> <a href="./EA1/EA31.html">Fichas de personas</a></li>
+<li><img src="../images/179.png" alt="Diagram"/> <a href="EA1.html">Página principal</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><!--**MODIFICADO v16**-->
+<div class="PageBody">
+	<div class=diagram_image> 
+<img src="EA2.png" usemap="#EA2" border="0" />
+
+<MAP NAME="EA2">
+<area shape="rect" coords="1411,531,1511,571" href="./EA1/EA13/EA3565.html" target="_self">
+<area shape="rect" coords="1411,367,1511,407" href="./EA1/EA11/EA3559.html" target="_self">
+<area shape="rect" coords="1411,301,1511,341" href="./EA1/EA10/EA3556.html" target="_self">
+<area shape="rect" coords="1411,457,1511,497" href="./EA1/EA12/EA3562.html" target="_self">
+<area shape="rect" coords="1263,418,1395,441" href="./EA1/EA1/EA45.html" target="_self">
+<area shape="rect" coords="511,281,1207,787" href="./EA2/EA3568.html" target="_self">
+<area shape="rect" coords="134,10,1182,77" href="EA4.html" target="_self">
+<area shape="rect" coords="872,163,912,209" href="./EA2/EA10/EA3659.html" target="_self">
+<area shape="rect" coords="878,230,918,276" href="./EA2/EA9/EA3646.html" target="_self">
+<area shape="rect" coords="637,230,677,276" href="./EA2/EA3/EA3616.html" target="_self">
+<area shape="rect" coords="636,163,676,209" href="./EA2/EA4/EA3621.html" target="_self">
+<area shape="rect" coords="717,230,757,276" href="./EA2/EA5/EA3626.html" target="_self">
+<area shape="rect" coords="712,163,752,209" href="./EA2/EA6/EA3631.html" target="_self">
+<area shape="rect" coords="799,230,839,276" href="./EA2/EA7/EA3636.html" target="_self">
+<area shape="rect" coords="796,163,836,209" href="./EA2/EA8/EA3641.html" target="_self">
+<area shape="rect" coords="549,230,589,276" href="./EA2/EA1/EA3605.html" target="_self">
+<area shape="rect" coords="1032,230,1072,276" href="./EA2/EA13/EA3674.html" target="_self">
+<area shape="rect" coords="1029,163,1069,209" href="./EA2/EA14/EA3679.html" target="_self">
+<area shape="rect" coords="947,163,987,209" href="./EA2/EA12/EA3669.html" target="_self">
+<area shape="rect" coords="951,230,991,276" href="./EA2/EA11/EA3664.html" target="_self">
+<area shape="rect" coords="1103,163,1143,209" href="./EA2/EA16/EA3689.html" target="_self">
+<area shape="rect" coords="1110,230,1150,276" href="./EA2/EA15/EA3684.html" target="_self">
+<area shape="rect" coords="551,163,591,209" href="./EA2/EA2/EA3611.html" target="_self">
+<area shape="rect" coords="10,260,450,610" href="../0-Indice/indiceGenealogia.html" TARGET="_self" target="_self">
+</MAP>
+ </div>
+	
+</div> </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

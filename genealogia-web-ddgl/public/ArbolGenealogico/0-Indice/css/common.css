@@ -1,0 +1,121 @@
+body {
+  color: black;
+}
+.disclaimer {
+border-top:1px solid #CCCCCC;
+
+font-size:0.9em;
+padding-top:0.5em;
+}
+dl {
+margin:0pt 1em;
+padding:0pt;
+}
+dl, form {
+float:left;
+}
+li {
+padding:0.1em 0pt;
+}
+h1 {
+	background-color: #333;
+	text-align: center;
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: none;
+}
+hr {
+background:#FFFFFF none repeat scroll 0%;
+border-color:-moz-use-text-color -moz-use-text-color #FFFFFF;
+border-style:none none solid;
+border-width:0pt 0pt 1px;
+clear:both;
+height:0pt;
+margin:0pt 0pt 1em;
+padding:0pt;
+width:100%;
+}
+table {
+border-color:#333366 -moz-use-text-color -moz-use-text-color rgb(51, 51, 102);
+border-style:solid none none solid;
+border-width:1px 0pt 0pt 1px;
+clear:left;
+float:left;
+margin:0pt 0pt 1em;
+padding:0pt;
+}
+tr {
+border:0pt none;
+margin:0pt;
+padding:0pt;
+}
+th {
+background-color:#FFFFFF;
+color:white;
+border-color:-moz-use-text-color #333366 rgb(51, 51, 102) -moz-use-text-color;
+border-style:none solid solid none;
+border-width:0pt 1px 1px 0pt;
+margin:0pt;
+padding:2px 6px;
+}
+td {
+background-color:#FFFFFF;
+border-color:-moz-use-text-color #333366 rgb(51, 51, 102) -moz-use-text-color;
+border-style:none solid none none;
+border-width:0pt 1px 1px 0pt;
+margin:0pt;
+padding:2px 6px;
+}
+td[axis="number"], td[axis="date"] {
+text-align:right;
+}
+th {
+background-color: #FF3333;
+padding:2px 20px;
+}
+tfoot td {
+border-top:1px solid #000033;
+}
+thead th {
+border-bottom:2px solid #000033;
+}
+.odd td {
+background-color:#FFFFFF;
+}
+.even td {
+background-color:#DDE5EB;
+}
+.hover td {
+background-color:#A5B3C9;
+}
+.sortedminus {
+background-color:#EECCCC;
+}
+.sortedplus {
+background-color: #ff8040;
+}
+.selrow td {
+background-color: #fbbdb5;
+}
+#s {
+float:left;
+}
+#d {
+clear:none;
+float:left;
+}
+form#tabletool {
+margin:0pt;
+padding:0.5em;
+}
+form#tabletool fieldset {
+text-align:center;
+width:8em;
+}
+form#tabletool legend {
+margin:0pt auto;
+}
+form#tabletool input {
+margin:0.5em;
+}
